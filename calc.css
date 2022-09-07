@@ -20,6 +20,7 @@ body{
        left:10px;
        border-radius: 15px;
        font-size: larger;
+       cursor: pointer;
    }
    #result{
        width: 350px;
@@ -40,6 +41,7 @@ body{
        font-weight: bold;
        background-color: #ff0000;
        border-radius: 25px;
+       cursor: pointer;
    }
    #but2{ 
        width:150px;
@@ -49,6 +51,7 @@ body{
        top:0px;
        font-weight: bold;
        color: white;
-       background-color: #ff0000;
+       background-color:green;
        border-radius: 25px;
+       cursor: pointer;
    }
