@@ -1,0 +1,59 @@
+body{ 
+    background-color: antiquewhite;
+   }
+   .container{ 
+       height:500px;
+       width: 400px;
+       background-color: rgb(17, 16, 16);
+       border-radius: 20px;
+       position: absolute;
+       left:50%;
+       top:50%;
+      transform: translate(-50%,-50%);
+      box-shadow: 10px 5px 10px;
+       
+   }
+   input{
+       font-weight: bold;
+       height: 80px;
+       width: 80px;
+       background-color: whitebisque;
+       position: relative;
+       left:10px;
+       border-radius: 15px;
+       font-size: larger;
+       cursor: pointer;
+   }
+   #result{
+       width: 350px;
+       height: 50px;
+       background-color: rgb(227, 238, 240);
+       position: relative;
+       left: 20px;
+       top:5px;
+       font: large;
+   }
+   #but1{ 
+       width:150px;
+       height: 60px;
+       position: relative;
+       left: 15px;
+       top:0px;
+       color: white;
+       font-weight: bold;
+       background-color: #ff0000;
+       border-radius: 25px;
+       cursor: pointer;
+   }
+   #but2{ 
+       width:150px;
+       height: 60px;
+       position: relative;
+       left: 80px;
+       top:0px;
+       font-weight: bold;
+       color: white;
+       background-color:green;
+       border-radius: 25px;
+       cursor: pointer;
+   }
